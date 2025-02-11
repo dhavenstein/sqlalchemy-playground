@@ -1,0 +1,16 @@
+[project]
+name = "sqlalchemy-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faker>=36.1.0",
+    "pytest>=8.3.4",
+    "pytest-clarity>=1.0.1",
+    "pytest-sugar>=1.0.0",
+    "sqlalchemy>=2.0.38",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "."
