@@ -1,3 +1,5 @@
+# (refer to https://docs.google.com/document/d/1h-cThwLbwlcdIupqlKT1q2KBzscV6365RnxeXl2n5xo/edit?usp=sharing)
+
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship, declarative_base
 from faker import Faker
