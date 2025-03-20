@@ -1,8 +1,5 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import declarative_base
-from faker import Faker
-
-fake = Faker()
 
 Base = declarative_base()
 

@@ -1,7 +1,11 @@
 import pytest
 from sqlalchemy import create_engine
-from demo import Base, Person, fake
+from demo import Base, Person
 from sqlalchemy.orm import sessionmaker
+
+from faker import Faker
+
+fake = Faker()
 
 @pytest.fixture
 def demo_session():
